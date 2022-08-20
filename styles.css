@@ -1,80 +1,229 @@
 * {
-    /* border: 1px solid red; */
-    font-family: Helvetica, Arial, sans-serif;
+  /* border: 1px solid red;  */
+  font-family: Helvetica, Arial, sans-serif;
 }
 
-body { 
-    margin: 0 auto; 
-    padding: 0; 
+body {
+  margin: 0 auto;
+  padding: 0;
 }
 
 .dark-background {
-    background-color: #1f2937;
-    margin: 0px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: #1f2937;
+  margin: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.dark-content {
-    display: flex;
-    flex-direction: column;
-    max-width: 1800px;
-    width: 100%;
+.content {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
 }
 
 .nav {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
 }
 
 .nav h3 {
-    font-size: 24px;
-    color: #f9faf8;
-    margin: 0;
+  font-size: 24px;
+  color: #f9faf8;
+  margin: 0;
 }
 
 .nav-links {
-    display: flex;
-    font-size: 18px;
-    color: #e5e7eb;
-    column-gap: 20px;
-    justify-content: space-between;
+  display: flex;
+  font-size: 18px;
+  color: #e5e7eb;
+  column-gap: 20px;
+  justify-content: space-between;
 }
 
 .dark-content-body {
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
 }
 
-h1 {
-    color: #f9faf8;
-    margin: 0px;
+.dark-background h1 {
+  color: #f9faf8;
+  margin: 0px;
 }
 
 .dark-content-body .right {
-    background-color: grey;
-    width: 50%;
-    margin-left: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: grey;
+  width: 50%;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .dark-content-body .left {
-    width: 50%;
-    margin-right: 10px;
-    font-size: 18px;
-    color: #e5e7eb;
-
+  width: 50%;
+  margin-right: 10px;
+  font-size: 18px;
+  color: #e5e7eb;
 }
-.white {
-
+.white-background {
+  background-color: #fff;
+  margin: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.grey {
-    background-color: #e5e7eb;
+.white-background .content h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: 1f2937;
+}
+
+.white-content-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.spotlighted-item {
+  width: 150px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.spotlight-image {
+  border: 5px solid #3882f6;
+  height: 150px;
+  width: 150px;
+  border-radius: 0.5rem;
+}
+
+.grey-background {
+  background-color: #e5e7eb;
+  margin: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.quote p {
+  margin: 0;
+  padding: 0;
+}
+
+.author {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  font-weight: bold;
+}
+
+.author p {
+  margin: 0;
+  padding: 0;
+}
+
+.call-to-action {
+  background-color: #3882f6;
+  margin: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 300px;
+  padding-left: 300px;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.call-to-action p {
+  padding: 0;
+  margin: 0;
+}
+
+.call-to-action .top {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.call-to-action .bottom {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.call-to-action .bottom button {
+  background-color: #3882f6;
+  color: white;
+  border: 3px solid white;
+  border-radius: 0.5rem;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-right: 40px;
+}
+
+.call-to-action .bottom button:hover {
+  background-color: white;
+  color: blue;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+}
+
+.footer p {
+  margin: 6px;
+}
+
+/* unvisited link */
+.footer a:link {
+  color: white;
+}
+
+/* visited link */
+.footer a:visited {
+  color: white;
+}
+
+/* mouse over link */
+.footer a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+.footera:active {
+  color: hotpink;
 }
