@@ -42,10 +42,16 @@ body {
   color: #e5e7eb;
   column-gap: 20px;
   justify-content: space-between;
+  cursor: pointer;
+}
+
+.nav-links:hover {
+  cursor: pointer;
 }
 
 .dark-content-body {
   padding: 20px;
+  margin-bottom: 40px;
   display: flex;
   flex-direction: row;
 }
@@ -77,6 +83,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .white-background .content h2 {
@@ -118,6 +125,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 40px;
 }
 
 .quote {
@@ -125,7 +133,7 @@ body {
   font-style: italic;
   font-weight: lighter;
   color: #1f2937;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -136,7 +144,7 @@ body {
 }
 
 .author {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   margin-left: 20px;
   margin-right: 20px;
   display: flex;
@@ -152,9 +160,12 @@ body {
 
 .call-to-action {
   background-color: #3882f6;
-  margin: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   padding-right: 300px;
   padding-left: 300px;
   border-radius: 0.5rem;
@@ -194,6 +205,7 @@ body {
 .call-to-action .bottom button:hover {
   background-color: white;
   color: blue;
+  cursor: pointer;
 }
 
 .footer {
@@ -224,6 +236,6 @@ body {
 }
 
 /* selected link */
-.footera:active {
+.footer a:active {
   color: hotpink;
 }
