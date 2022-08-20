@@ -5,7 +5,7 @@ An Odin Project assignment to create an entire web page from a design provided i
 Complete
 
 ## Project Screen Shot(s)
-![](project.PNG)
+![](project.png)
 
 ## Installation and Setup Instructions
 
